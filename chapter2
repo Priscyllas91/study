@@ -1,16 +1,50 @@
-#CAP 2 - Variables and Simple Data Types
+#CAP 2 -VARIABLES AND SIMPLE DATA TYPES
 
-#Changing Cases in a String with Methods
+  #CHANGING CASES
 
-#only the first letters upper case
+    #only the first letters upper case
 
-name= "dom Corleone"
-print(name.title())
+      name= "dom Corleone"
+      print(name.title())
 
-#all upper
+   #all upper
 
-print(name.upper())
+      print(name.upper())
 
-#all lower
+   #all lower
 
-print(name.lower())
+    print(name.lower())
+
+#USING VARIBLES AS STRINGS 
+
+  first_name = "Vito"
+
+  last_name="Corleone"
+  
+  #f function is used to contatenate string variables 
+  
+  full_name=f"{first_name} {last_name}" #{} used most on string variables
+  
+  print(full_name)
+
+  print(f"Godfather {full_name.title()}")
+
+  message= f"Godfather {full_name.title()}"
+
+  print(message)
+
+#NUMBERS
+
+  #integers
+  
+  2+2
+  3**2
+  
+ 
+  2+3**2
+  (2+3)**2
+
+#intergers + floats mixed = float
+
+type(1+0.5/0.025)
+
