@@ -1,0 +1,17 @@
+#Python_Crash_Course- 2nd Ed.ipynb
+
+#Changing Cases in a String with Methods
+
+#only the first letters upper case
+
+name= "dom Corleone"
+print(name.title())
+
+#all upper
+
+print(name.upper())
+
+#all lower
+
+print(name.lower())
+
