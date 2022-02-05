@@ -1,0 +1,16 @@
+#CAP 2 - Variables and Simple Data Types
+
+#Changing Cases in a String with Methods
+
+#only the first letters upper case
+
+name= "dom Corleone"
+print(name.title())
+
+#all upper
+
+print(name.upper())
+
+#all lower
+
+print(name.lower())
